@@ -6,7 +6,6 @@ import PostFilter from "./components/PostFilter";
 import MyModal from "./components/UI/MyModal/MyModal";
 import MyButton from "./components/UI/button/MyButton";
 import { usePosts } from "./hooks/usePost";
-import axios from "axios";
 import PostService from "./API/PostService";
 
 function App() {
@@ -51,10 +50,12 @@ function App() {
 export default App;
 
 /*
-https://www.youtube.com/watch?v=GNrdg3PzpJQ&t=5424s
+https://youtu.be/GNrdg3PzpJQ?t=6286
+
+1:44:46
 
 Смотри с этапа:
 
->>>  1:40:00  <<<
+>>>  Индикация загрузки данных с сервера  <<<
 
 */
